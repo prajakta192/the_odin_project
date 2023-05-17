@@ -1,0 +1,50 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    color:#663299
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #663299;
+    margin: 10px;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: inheritssss;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+.left-section h1{
+    font-size: 35px;
+    font-style: italic;
+}
+.left-section ul{
+    list-style: none;
+    display: flex;
+    gap:10px
+}
+.right-section{
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+.right-section .notification{
+    background-color: #663299;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.right-section .circle{
+    background-color: #663299;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

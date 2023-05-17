@@ -1,0 +1,26 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #fdefd5;
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap:10px
+}
+nav a{
+    text-decoration: none;
+    background-color: white;
+    padding: 5px 10px;
+}
+nav h1 a{
+    color:#f66348;
+}
